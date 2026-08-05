@@ -11,7 +11,6 @@ import { Reveal } from "@/components/ui/Reveal";
 type LeetCodeData = {
   username: string;
   realName: string | null;
-  avatar: string | null;
   ranking: number | null;
   totalSolved: number;
   easySolved: number;
@@ -104,19 +103,13 @@ export function LeetCode() {
             <Reveal>
               <div className="glass h-full rounded-2xl p-6 sm:p-7">
                 <div className="flex items-center gap-4">
-                  {data.avatar ? (
-                    <Image
-                      src={data.avatar}
-                      alt={data.username}
-                      width={80}
-                      height={80}
-                      className="h-20 w-20 rounded-2xl ring-2 ring-brand-400/50"
-                    />
-                  ) : (
-                    <span className="flex h-20 w-20 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-400 to-accent-600 text-2xl font-bold text-white ring-2 ring-brand-400/50">
-                      {data.realName?.[0] ?? data.username[0]}
-                    </span>
-                  )}
+                  <Image
+                    src={siteConfig.avatar}
+                    alt={data.username}
+                    width={80}
+                    height={80}
+                    className="h-20 w-20 rounded-2xl ring-2 ring-brand-400/50"
+                  />
                   <div>
                     <h3 className="text-lg font-bold text-slate-900 dark:text-white">
                       {data.realName ?? data.username}

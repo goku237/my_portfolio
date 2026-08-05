@@ -59,7 +59,6 @@ export async function GET() {
     return Response.json({
       username: matchedUser.username,
       realName: matchedUser.profile?.realName ?? null,
-      avatar: matchedUser.profile?.userAvatar ?? null,
       ranking: matchedUser.profile?.ranking ?? null,
       totalSolved: difficultyCount(submissions, "All"),
       easySolved: difficultyCount(submissions, "Easy"),
