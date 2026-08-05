@@ -19,6 +19,8 @@ export const siteConfig = {
   linkedinShort: "in/gokul-m-a57930317",
   github: "https://github.com/goku237",
   githubUsername: "goku237",
+  leetcode: "https://leetcode.com/u/Gokul_020607/",
+  leetcodeUsername: "Gokul_020607",
   resumeUrl: "/resume/Gokul_M_Resume.pdf",
   bio: "Full Stack Developer and Data Science enthusiast pursuing B.Tech in Computer Science at SRM University, Chennai. I build fast, scalable web applications and love exploring AI, machine learning and Web3.",
   locationShort: "Chennai, India",
@@ -30,7 +32,7 @@ export const navLinks = [
   { label: "Skills", href: "#skills" },
   { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
-  { label: "Journey", href: "#timeline" },
   { label: "GitHub", href: "#github" },
+  { label: "LeetCode", href: "#leetcode" },
   { label: "Contact", href: "#contact" },
 ] as const;

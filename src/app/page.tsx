@@ -7,9 +7,8 @@ import { Projects } from "@/components/sections/Projects";
 import { Certifications } from "@/components/sections/Certifications";
 import { Achievements } from "@/components/sections/Achievements";
 import { Education } from "@/components/sections/Education";
-import { Timeline } from "@/components/sections/Timeline";
 import { GitHubSection } from "@/components/sections/GitHub";
-import { Testimonials } from "@/components/sections/Testimonials";
+import { LeetCode } from "@/components/sections/LeetCode";
 import { Contact } from "@/components/sections/Contact";
 
 export default function Home() {
@@ -24,9 +23,8 @@ export default function Home() {
       <Certifications />
       <Achievements />
       <Education />
-      <Timeline />
       <GitHubSection />
-      <Testimonials />
+      <LeetCode />
       <Contact />
     </>
   );
