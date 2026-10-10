@@ -3,7 +3,6 @@
 import {
   Award,
   Briefcase,
-  Code2,
   GraduationCap,
   Languages,
   MapPin,
@@ -34,7 +33,6 @@ const interests = [
 const stats = [
   { value: 20, suffix: "+", label: "Projects Built" },
   { value: 3, suffix: "", label: "Internships" },
-  { value: 9, suffix: "", label: "GitHub Followers" },
   { value: 4, suffix: "", label: "Languages Spoken" },
 ];
 
@@ -134,7 +132,7 @@ export function About() {
                 </span>
               </div>
 
-              <div className="grid grid-cols-2 gap-4 pt-4 sm:grid-cols-4">
+              <div className="grid grid-cols-2 gap-4 pt-4 sm:grid-cols-3">
                 {stats.map((stat) => (
                   <div
                     key={stat.label}
@@ -150,14 +148,6 @@ export function About() {
                 ))}
               </div>
 
-              <div className="flex items-center gap-3 rounded-2xl border border-brand-400/20 bg-brand-500/5 p-4">
-                <Code2 className="h-5 w-5 shrink-0 text-brand-500" />
-                <p className="text-sm text-slate-600 dark:text-slate-300">
-                  Currently exploring data science via the IIT Guwahati
-                  credit-linked program and building AI features into everything
-                  I ship.
-                </p>
-              </div>
             </div>
           </Reveal>
         </div>
