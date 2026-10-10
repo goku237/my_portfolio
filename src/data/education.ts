@@ -27,8 +27,8 @@ export const education: EducationEntry[] = [
   {
     degree: "Credit Linked Program — Data Science",
     institution: "Indian Institute of Technology, Guwahati",
-    years: "Ongoing",
-    detail: "Specialised data science program taken as a credit-linked course.",
+    years: "2025 — 2026",
+    detail: "Completed a specialised data science program taken as a credit-linked course.",
     coursework: ["Data Science", "Statistical Analysis", "Machine Learning"],
   },
   {
