@@ -21,7 +21,8 @@ export const siteConfig = {
   githubUsername: "goku237",
   leetcode: "https://leetcode.com/u/Gokul_020607/",
   leetcodeUsername: "Gokul_020607",
-  resumeUrl: "/resume/Gokul_M_Resume.pdf",
+  resumeUrl:
+    "https://drive.google.com/file/d/1fim1iecrm7J6DKACJC-dd5-f4hK5mT5x/view?usp=sharing",
   bio: "Full Stack Developer and Data Science enthusiast pursuing B.Tech in Computer Science at SRM University, Chennai. I build fast, scalable web applications and love exploring AI, machine learning and Web3.",
   locationShort: "Chennai, India",
 } as const;
